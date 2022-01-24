@@ -15,6 +15,8 @@ brew install colima
 colima stop
 colima delete
 colima start --cpu 4 --memory 8 --verbose
+
+# build and run docker container
 docker-compose up
 ```
 
