@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+    sample:
+        build: .
+        volumes:
+            - .:/tmp/host:ro
+        command: bash /tmp/run.sh
+        
