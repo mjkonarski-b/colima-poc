@@ -1,9 +1,10 @@
 # colima-poc
 Docker container causing Colima network problems
 
-The docker image install python and poetry and tries to install some python dependencies in a loop. The problem's symptoms is that after a while network connections
+The docker image install python and poetry and tries to install some python dependencies in a loop. The symptoms are that after a while network connections
 breaks with errors like `Failed to establish a new connection: [Errno 101] Network is unreachable'`. After this happens, the whole qemu machine can't access network.
 
+### Steps to reproduce:
 
 ```
 brew install colima
