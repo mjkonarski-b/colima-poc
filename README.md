@@ -27,3 +27,27 @@ ping 8.8.8.8
 ```
 
 Ping doesn't work. If you wait long enough it gets better. If you restart qemu machine it works fine (until the next time).
+
+
+### Versions
+
+```
+$ colima version
+colima version 0.3.2
+git commit: 272db4732b90390232ed9bdba955877f46a50552
+
+runtime: docker
+arch: aarch64
+client: v20.10.11
+server: v20.10.11
+
+
+$ limactl --version
+limactl version 0.8.1
+
+
+$ qemu-img --version
+qemu-img version 6.2.0
+Copyright (c) 2003-2021 Fabrice Bellard and the QEMU Project developers
+
+```
