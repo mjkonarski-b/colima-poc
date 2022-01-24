@@ -5,5 +5,5 @@ services:
         build: .
         volumes:
             - .:/tmp/host:ro
-        command: bash /tmp/run.sh
+        command: bash /tmp/host/run.sh
         
